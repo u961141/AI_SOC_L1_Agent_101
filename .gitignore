@@ -1,0 +1,56 @@
+##################################################
+# AI Platform
+##################################################
+
+# AI Models
+Models/
+
+# Runtime Data
+Data/
+
+# Logs
+Logs/
+
+# Backups
+Backups/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/settings.json
+
+# Docker
+*.log
+
+# Environment
+.env.local
+.env.production
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+##################################################
+# Docker Desktop
+##################################################
+
+Infrastructure/Dockers/
+*.vhdx
+
+##################################################
+# Runtime Data
+##################################################
+
+Data/
+Models/
+Logs/
+Backups/
