@@ -1,0 +1,24 @@
+# Environment & Secret files
+.env
+.env.*
+!.env.example
+*.txt
+!requirements.txt
+
+# Python Virtual Environment & Caches
+.venv/
+venv/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE & Editor files
+.vscode/
+.idea/
+
+# Temporary, OS & Log Files
+~$*.docx
+*.log
+.DS_Store
+Thumbs.db
